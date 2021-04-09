@@ -1,0 +1,34 @@
+body {
+    background-color:rgb(158, 115, 158);
+}
+
+body form {
+    background-color:gray;
+}
+
+body footer form {
+    background-color:indianred;
+    height: 50px;
+    /*with: 100%;*/
+}
+
+
+
+p {
+    color:rgb(66, 2, 47);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+.align {
+    text-align:center;
+}
+
+.url {
+
+}

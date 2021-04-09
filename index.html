@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/form.css">
+
+
+</head>
+
+
+<body>
+    <h1 style="color:rgb(66, 2, 47)">Forma nr 123
+    </h1>
+    <form action="" method="POST" enctype="multipart/form-data">
+             <div>
+                <p style="color:rgb(66, 2, 47)">Vardas</p>
+                    <input type="text" name="">
+
+            </div>
+            <div>
+                <p style="color:rgb(66, 2, 47)"> Slaptazodis</p>
+                     <input type="password">
+            </div>
+
+                            <!--pasirinkimu blokai-->
+            <div>
+                <p style="color:rgb(66, 2, 47)" > Telefono numeris</p>
+                    <input placeholder="tel.nr." type="tel">
+            </div>
+            <div>
+                <P style="color:rgb(66, 2, 47)"> Lytis</P>
+                <div>           
+                    <input type="radio" name="gender" value="male" />Vyr.
+                </div>  
+                <div>
+                    <input type="radio" name="gender" value="female" />Mot. 
+                </div>
+            </div>
+          
+            <div>
+                <p>Transportas</p>
+                <div>
+                    <input checked type="checkbox" name="bike" value="yes" /> Dviratis
+                </div>
+                <div>
+                    <input checked type="checkbox" name="car" /> Masina
+                </div>
+                <div>
+                    <input checked type="checkbox" name="bus" value="yes" /> Autobusas
+                </div>
+            </div>
+            <div>
+                <p> Papildoma informacija</p>
+                <textarea name="text"></textarea>
+            </div>
+            <div>
+                <p> Prideti nuotrauka</p>
+                <input type="file" >
+            </div>
+            <div> 
+                <p> Patinkanti spalva</p>
+                <select name="color">
+                    <option value="red"> Raudona</option>
+                    <option value="green"> Zalia</option>
+                    <option value="yellow"> Geltona></option>
+                </select>
+            </div>
+            <div> 
+                <p> Veiksmai</p>
+                <button type="submit"> Siusti</button>
+                <button type="reset"> Isvalyti</button>
+            </div>
+        </form>
+    <footer>
+        <form>
+        <img src="./image.img.png" width="1000" height="142">
+        </form>
+    </footer>
+    
+</body> 
+
+</html>
